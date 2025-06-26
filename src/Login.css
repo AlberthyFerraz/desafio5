@@ -75,3 +75,22 @@ a, .link {
 a:hover, .link:hover {
   text-decoration: underline;
 }
+.opcoes-perfil {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.perfil-option {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.perfil-option:hover {
+  background-color: #45a049;
+}
