@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import logo from './assets/logo-cor.jpg';
 import './Dashboard.css';
 
 function Dashboard() {
@@ -8,6 +9,9 @@ function Dashboard() {
 
   return (
     <div className="dashboard-container">
+       <div className="logo-container">
+        <img src={logo} alt="Logo Composta+" className="dashboard-logo" />
+      </div>
       <h1>Bem-vindo(a) ao Composta+!</h1>
       <p>Você está participando como <strong>{tipoPerfil}</strong>.</p>
 
