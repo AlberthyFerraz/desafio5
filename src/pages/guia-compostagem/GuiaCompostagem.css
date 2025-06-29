@@ -1,0 +1,60 @@
+.guide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.header-guide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0.4rem;
+    font-size: 20pt;
+    background: #114C02;
+    border-radius: 0 0 1.4rem 1.4rem;
+}
+
+.title {
+    font-size: 14pt;
+    margin-left: 1rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.menu > ul > li {
+    list-style: none;
+}
+
+.option {
+    color: #ffffff;
+}
+
+#home-button {
+    background: none;
+    border: none;
+    padding: 1rem;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
