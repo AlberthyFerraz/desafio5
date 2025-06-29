@@ -19,6 +19,11 @@ function GuiaCompostagem() {
         </div>
       </div>
       <p>Aprenda os fundamentos da compostagem doméstica para transformar resíduos orgânicos em adubo rico.</p>
+      <div className="game-section">
+        <h3>🎮 Aprenda Jogando!</h3>
+        <p>Coloque seus conhecimentos de compostagem à prova de forma divertida!</p>
+        <button>Iniciar Jogo de Compostagem</button>
+      </div>
     </div>
   );
 }
