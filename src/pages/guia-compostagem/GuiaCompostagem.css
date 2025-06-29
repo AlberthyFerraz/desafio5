@@ -238,3 +238,34 @@ tbody {
     gap: 1rem;
     margin-top: 1rem;
 }
+
+#card-guide-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 2rem 1rem;
+    gap: 1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    font-size: 14pt;
+    background: #114C02;
+}
+
+#card-guide-four > h4 {
+    font-size: 16pt;
+}
+
+span {
+    font-weight: 800;
+}
+
+#image-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#image-cards > img {
+    width: 20%;
+}

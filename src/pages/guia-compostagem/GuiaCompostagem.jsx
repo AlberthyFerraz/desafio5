@@ -4,6 +4,10 @@ import card1 from '../../assets/card1.svg';
 import subCard1 from '../../assets/sub-card-1.svg';
 import subCard2 from '../../assets/sub-card-2.svg';
 import subCard3 from '../../assets/sub-card-3.svg';
+import card4One from '../../assets/card4-1.svg';
+import card4Two from '../../assets/card4-2.svg';
+import card4Three from '../../assets/card4-3.svg';
+import card4Four from '../../assets/card4-4.svg';
 
 function GuiaCompostagem() {
   return (
@@ -97,6 +101,21 @@ function GuiaCompostagem() {
               <tr>Plásticos, vidros, metais</tr>
             </tbody>
           </table>
+        </div>
+      </div>
+      <div id="card-guide-four">
+        <h4>4. Dicas Essenciais</h4>
+        <div>
+          <span>Equilíbrio:</span> Mantenha uma boa proporção de materiais "verdes" (ricos em nitrogênio, úmidos) e "marrons" (ricos em carbono, secos). <br />
+          <span>Aeração:</span> Revire o composto regularmente para garantir oxigenação e evitar mau cheiro. <br />
+          <span>Umidade:</span> Mantenha o composto úmido como uma esponja torcida, mas não encharcado. <br />
+          <span>Paciência:</span> A compostagem leva tempo, mas o resultado vale a pena!
+        </div>
+        <div id="image-cards">
+          <img src={card4One} alt="" />
+          <img src={card4Two} alt="" />
+          <img src={card4Three} alt="" />
+          <img src={card4Four} alt="" />
         </div>
       </div>
     </div>
