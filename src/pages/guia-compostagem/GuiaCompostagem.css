@@ -81,3 +81,35 @@
     width: 25%;
     border-radius: 2rem;
 }
+
+#card-guide-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    margin: 2rem;
+    background: #114C02;
+    border-radius: 1rem;
+    font-size: 16pt;
+}
+
+#card-guide-one > img {
+    width: 30%;
+}
+
+#card-guide-one > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#card-guide-one > div > p {
+    width: 70%;
+    font-size: 20pt;
+    text-align: center;
+}

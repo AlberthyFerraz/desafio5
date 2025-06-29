@@ -1,5 +1,6 @@
 import './GuiaCompostagem.css';
 import logo from '../../assets/logo-cor.jpg';
+import card1 from '../../assets/card1.svg';
 
 function GuiaCompostagem() {
   return (
@@ -23,6 +24,18 @@ function GuiaCompostagem() {
         <h3>🎮 Aprenda Jogando!</h3>
         <p>Coloque seus conhecimentos de compostagem à prova de forma divertida!</p>
         <button>Iniciar Jogo de Compostagem</button>
+      </div>
+      <div id="card-guide-one">
+        <img src={card1} alt="" />
+        <div>
+          <h4>1. O que é Compostagem?</h4>
+          <p>
+            Compostagem é um processo biológico de valorização da matéria orgânica, 
+            no qual microrganismos transformam resíduos como restos de alimentos e 
+            podas de jardim em um material rico em nutrientes, o composto orgânico. 
+            Este composto pode ser utilizado como adubo para plantas e jardins.
+          </p>
+        </div>
       </div>
     </div>
   );
