@@ -60,6 +60,45 @@ function GuiaCompostagem() {
           </div>
         </div>
       </div>
+      <div id="card-guide-three">
+        <h4>3. O que Pode e Não Pode Compostar?</h4>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Pode Compostar ✅</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>Restos de frutas e vegetais</tr>
+              <tr>Cascas de ovo (trituradas)</tr>
+              <tr>Borra de café e coador de papel</tr>
+              <tr>Sacos de chá</tr>
+              <tr>Folhas secas e grama cortada</tr>
+              <tr>Pequenos galhos e gravetos</tr>
+              <tr>Serragem e palha (não tratadas)</tr>
+              <tr>Pó de serra limpo</tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr>
+                <th>Não Pode Compostar ❌</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>Carne, peixe e ossos</tr>
+              <tr>Laticínios e produtos oleosos</tr>
+              <tr>Alimentos cozidos (em grande quantidade)</tr>
+              <tr>Feijão e arroz (atraem pragas)</tr>
+              <tr>Excrementos de animais de estimação</tr>
+              <tr>Plantas doentes</tr>
+              <tr>Madeira tratada ou pintada</tr>
+              <tr>Plásticos, vidros, metais</tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 }
