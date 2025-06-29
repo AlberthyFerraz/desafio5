@@ -8,6 +8,10 @@ import card4One from '../../assets/card4-1.svg';
 import card4Two from '../../assets/card4-2.svg';
 import card4Three from '../../assets/card4-3.svg';
 import card4Four from '../../assets/card4-4.svg';
+import instagram from '../../assets/instagram.svg';
+import facebook from '../../assets/facebook.svg';
+import youtube from '../../assets/youtube.svg';
+import linkedin from '../../assets/linkedin.svg';
 
 function GuiaCompostagem() {
   return (
@@ -118,6 +122,18 @@ function GuiaCompostagem() {
           <img src={card4Four} alt="" />
         </div>
       </div>
+      <div id="social-area">
+        <div>
+          <img src={instagram} alt="" />
+          <img src={facebook} alt="" />
+        </div>
+        <img id="social-area-logo" src={logo} alt="" />
+        <div>
+          <img src={youtube} alt="" />
+          <img src={linkedin} alt="" />
+        </div>
+      </div>
+      <p id="copyright">© 2025 Educação em Dados. Todos os direitos reservados.</p>
     </div>
   );
 }

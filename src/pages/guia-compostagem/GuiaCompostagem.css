@@ -269,3 +269,32 @@ span {
 #image-cards > img {
     width: 20%;
 }
+
+#social-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#social-area > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#social-area > div > img {
+    width: 40px;
+}
+
+#social-area-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#copyright {
+    color: #000000;
+    font-weight: 700;
+}
