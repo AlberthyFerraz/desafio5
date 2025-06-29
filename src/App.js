@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './Login';
-import Cadastro from './Cadastro';
-import SelecaoPerfil from './SelecaoPerfil';
-import Dashboard from './Dashboard';
-import GuiaCompostagem from './GuiaCompostagem';
-import RedeComposta from './RedeComposta';
-import DiarioCompostagem from './DiarioCompostagem';
-import MeuImpacto from './MeuImpacto';
+import Login from './pages/autenticacao/Login';
+import Cadastro from './pages/autenticacao/Cadastro';
+import SelecaoPerfil from './pages/selecao-perfil/SelecaoPerfil';
+import Dashboard from './pages/dashboard/Dashboard';
+import GuiaCompostagem from './pages/guia-compostagem/GuiaCompostagem';
+import RedeComposta from './pages/rede-composta/RedeComposta';
+import DiarioCompostagem from './pages/diario-compostagem/DiarioCompostagem';
+import MeuImpacto from './pages/meu-impacto/MeuImpacto';
 
 function App() {
   return (
