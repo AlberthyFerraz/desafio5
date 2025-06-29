@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import './Login.css';
+import '../autenticacao/Login.css';
 
 function SelecaoPerfil() {
   const navigate = useNavigate();

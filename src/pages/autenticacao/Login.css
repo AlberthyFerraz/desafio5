@@ -1,6 +1,6 @@
 .login-container {
     height: 100vh; /* Corrigido de 100Wh para 100vh */
-    background-image: url('./assets/composta.jpg'); /* Corrigido o caminho e adicionado url() */
+    background-image: url('../../assets/composta.jpg'); /* Corrigido o caminho e adicionado url() */
     background-size: cover;
     background-position: center;
     display: flex;

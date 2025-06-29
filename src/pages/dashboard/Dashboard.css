@@ -84,7 +84,7 @@
 }   
 body {
   margin: 0;
-  background-image: url('./assets/composta.jpg'); /* Caminho para sua imagem */
+  background-image: url('../../assets/composta.jpg'); /* Caminho para sua imagem */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import logo from './assets/logo-cor.jpg';
+import logo from '../../assets/logo-cor.jpg';
 import './Dashboard.css';
 
 function Dashboard() {
