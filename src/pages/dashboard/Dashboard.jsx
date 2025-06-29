@@ -17,7 +17,7 @@ function Dashboard() {
 
       <div className="dashboard-grid">
         <Link to="/guia" className="dashboard-card">
-          <h2>Guia de Compostagem</h2>
+          <h2><span >📚</span><br/>Guia de Compostagem</h2>
           <p>Aprenda tudo sobre compostagem.</p>
         </Link>
 

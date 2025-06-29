@@ -1,0 +1,92 @@
+.impacto-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.impacto-container h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.impacto-secao h2 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.pontuacao-secao h3 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.impacto-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.impacto-card h2 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.impacto-valor {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4CAF50;
+  margin: 15px 0;
+}
+
+.impacto-descricao {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.navegacao-inferior {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background-color: #4CAF50;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.nav-item {
+  color: #ffffff;
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+
+.nav-separador {
+  color: #ccc;
+  padding: 0 5px;
+}
+.dashboard-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background-color: #4CAF50;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.dashboard-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
