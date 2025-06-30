@@ -201,8 +201,8 @@ function GuiaCompostagem() {
           <img src={youtube} alt="YouTube" />
           <img src={linkedin} alt="LinkedIn" />
         </div>
-        <p id="copyright">© 2025 Educação em Dados. Todos os direitos reservados.</p>
       </footer>
+      <p id="copyright">© 2025 Educação em Dados. Todos os direitos reservados.</p>
     </div>
   );
 }
