@@ -7,6 +7,7 @@ import GuiaCompostagem from './pages/guia-compostagem/GuiaCompostagem';
 import RedeComposta from './pages/rede-composta/RedeComposta';
 import DiarioCompostagem from './pages/diario-compostagem/DiarioCompostagem';
 import MeuImpacto from './pages/meu-impacto/MeuImpacto';
+import Chat from './pages/chat/Chat';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path="/conexao" element={<RedeComposta />} />
         <Route path="/diario" element={<DiarioCompostagem />} />
         <Route path="/impacto" element={<MeuImpacto />} />
-        <Route path="/" element={<Navigate to="/login" />} />
+        <Route path="/chat" element={<Chat />} />
+        <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
     </Router>
   );

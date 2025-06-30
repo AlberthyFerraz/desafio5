@@ -9,7 +9,7 @@ function Dashboard() {
 
   return (
     <div className="dashboard-container">
-       <div className="logo-container">
+      <div className="logo-container">
         <img src={logo} alt="Logo Composta+" className="dashboard-logo" />
       </div>
       <h1>Bem-vindo(a) ao Composta+!</h1>
@@ -37,13 +37,17 @@ function Dashboard() {
         </Link>
       </div>
 
-      <nav className="dashboard-nav">
-        <Link to="/dashboard">Início</Link>
-        <Link to="/guia">Guia</Link>
-        <Link to="/conexao">Conexão</Link>
-        <Link to="/diario">Diário</Link>
-        <Link to="/impacto">Impacto</Link>
-      </nav>
+      {/* Botão de Chat Flutuante */}
+      <Link to="/chat" className="chat-button">
+        <span>💬</span>
+      </Link>
+
+     <nav className="dashboard-nav">
+              <Link to="/dashboard">🏠Início</Link>
+             <Link to="/guia">📚Guia</Link>
+             <Link to="/conexao">🤝Conexão</Link>
+             <Link to="/impacto">🌎Impacto</Link>
+           </nav>
     </div>
   );
 }
