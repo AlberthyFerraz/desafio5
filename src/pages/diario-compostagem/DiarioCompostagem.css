@@ -1,0 +1,105 @@
+#diary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+
+#title {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+#add-record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    background: #114C02;
+    overflow: hidden;
+}
+
+input {
+    border-radius: 0.4rem;
+    background: #fff;
+    margin: 0;
+}
+
+#add-record-top, #add-record-bottom  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+#date, #type {
+    width: 50%;
+}
+
+#notes {
+    resize: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 120px;
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+#add-record-btn {
+    background: #fff;
+    color: black;
+    margin: 1rem;
+    font-weight: 700;
+    border-radius: 0.4rem;
+}
+
+#my-records {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 81%;
+    border-radius: 1rem;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+#my-records > div {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#records {
+    width: 100%;
+    border-radius: 1rem;
+    background: #D9D9D9;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding: 0.4rem;
+}
+
+p {
+    margin: 2px;
+}
+
+#p-notes {
+    font-weight: 100;
+}
