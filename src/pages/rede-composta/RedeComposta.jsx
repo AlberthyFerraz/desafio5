@@ -25,11 +25,13 @@ function RedeComposta() {
     <div>
       {/* Menu */}
       <nav className="dashboard-nav">
-        <Link to="/dashboard">🏠 Início</Link>
-        <Link to="/guia">📚 Guia</Link>
-        <Link to="/diario">📒 Diário</Link>
-        <Link to="/impacto">🌎 Impacto</Link>
-      </nav>
+                <Link to="/dashboard">🏠Início</Link>
+                <Link to="/guia">📚Guia</Link>
+                <Link to="/conexao">🤝Conexão</Link>
+                <Link to="/diario">📒Diário</Link>
+                <Link to="/impacto">🌎Impacto</Link>
+                <Link to="/perfil"><i className="fa-solid fa-user"></i></Link>
+           </nav>
 
       {/* Formulário */}
       <div className="anunciar-container">

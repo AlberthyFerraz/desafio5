@@ -66,11 +66,13 @@ function MeuImpacto() {
 
   {/* Navegação Inferior */}
       <nav className="dashboard-nav">
-         <Link to="/dashboard">🏠<br /> Início</Link>
-        <Link to="/guia">📚<br />Guia</Link>
-        <Link to="/conexao">🤝<br />Conexão</Link>
-        <Link to="/impacto">🌎<br />Impacto</Link>
-      </nav>
+                <Link to="/dashboard">🏠Início</Link>
+                <Link to="/guia">📚Guia</Link>
+                <Link to="/conexao">🤝Conexão</Link>
+                <Link to="/diario">📒Diário</Link>
+                <Link to="/impacto">🌎Impacto</Link>
+                <Link to="/perfil"><i className="fa-solid fa-user"></i></Link>
+           </nav>
     </div>
   );
 }
