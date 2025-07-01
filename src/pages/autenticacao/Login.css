@@ -82,7 +82,7 @@ a:hover, .link:hover {
   margin-top: 20px;
 }
 
-.perfil-option {
+#composter-option, #donate-option {
   background-color: #4CAF50;
   color: white;
   padding: 12px;
