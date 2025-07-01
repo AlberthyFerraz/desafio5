@@ -11,7 +11,7 @@ function Login() {
     e.preventDefault();
     
     if (email && password) {
-      navigate('/selecao-perfil'); // Rota para a segunda tela
+      navigate('/dashboard'); // Rota para a segunda tela
     } else {
       alert('Por favor, preencha todos os campos!');
     }

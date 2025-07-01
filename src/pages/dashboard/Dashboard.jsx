@@ -46,6 +46,7 @@ function Dashboard() {
               <Link to="/dashboard">🏠Início</Link>
              <Link to="/guia">📚Guia</Link>
              <Link to="/conexao">🤝Conexão</Link>
+             <Link to="/diario">📒Diário</Link>
              <Link to="/impacto">🌎Impacto</Link>
            </nav>
     </div>
