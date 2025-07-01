@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
+    padding-bottom: 8rem;
 }
 
 .header-guide {
@@ -297,4 +298,5 @@ span {
 #copyright {
     color: #000000;
     font-weight: 700;
+    margin: 1rem;
 }
