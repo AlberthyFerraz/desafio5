@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom'; // Adicionei Link aqui
+import { useNavigate, Link } from 'react-router-dom';
 import './Login.css'
 import { toast, ToastContainer } from 'react-toastify';
 import axios from 'axios';
@@ -18,7 +18,7 @@ function Login() {
 
   const handleLogin = async (event) => {
     event.preventDefault();
-    
+
     if (!email || !password) {
       toast.error("Todos os campos precisam ser preenchidos!");
       return;
@@ -29,14 +29,23 @@ function Login() {
       return;
     }
 
+    // Verificação direta para admin
+    if (email === 'admin@admin.com' && password === 'admin') {
+      toast.success("Login de administrador feito com sucesso!");
+      localStorage.setItem("token", "admin-token");
+      navigate("/dashboard");
+      return; // Finaliza a função aqui
+    }
+
     try {
       await axios.post(`${url}/users/login`, { 
         email, password 
       })
       .then((response) => {
         const data = response.data;
-        localStorage.setItem("token", data.token)
+        localStorage.setItem("token", data.token);
       })
+      
       toast.success("Login feito com sucesso!");
       navigate("/dashboard");
     } catch (error) {
