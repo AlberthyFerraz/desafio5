@@ -42,8 +42,5 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 
 ### 📥 Instalação
 
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/composta-plus.git
-cd composta-plus
+
 
