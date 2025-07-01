@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 import './Chat.css';
 
 function Chat() {
@@ -8,23 +9,30 @@ function Chat() {
     { text: 'Olá! Sou seu assistente de compostagem. Como posso ajudar hoje?', sender: 'ai' }
   ]);
 
-  const handleSendMessage = (e) => {
+  const handleSendMessage = async (e) => {
     e.preventDefault();
+
     if (message.trim() === '') return;
 
-    // Adiciona a mensagem do usuário
-    setMessages([...messages, { text: message, sender: 'user' }]);
-    
-    // Limpa o input
+    setMessages(prev => [...prev, { text: message, sender: 'user' }]);
+
+    const userMessage = message;
     setMessage('');
-    
-    // Aqui você pode adicionar a lógica para a resposta da IA
+
+    try {
+      const res = await axios.post('http://localhost:4000/chat/', { message: userMessage });
+
+      setMessages(prev => [...prev, { text: res.data.response, sender: 'ai' }]);
+    } catch (err) {
+      const errorMsg = err.response?.data?.message || 'Erro ao conectar com o servidor.';
+      setMessages(prev => [...prev, { text: errorMsg, sender: 'ai' }]);
+    }
   };
 
   return (
     <div className="chat-container">
       <div className="chat-header">
-        <h1><span>💬</span>Chat com IA</h1>
+        <h1><span>💬</span> Chat com IA</h1>
       </div>
 
       <div className="chat-messages">
