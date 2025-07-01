@@ -205,11 +205,12 @@ function GuiaCompostagem() {
       <p id="copyright">© 2025 Educação em Dados. Todos os direitos reservados.</p>
 
       <nav className="dashboard-nav">
-              <Link to="/dashboard">🏠Início</Link>
-             <Link to="/guia">📚Guia</Link>
-             <Link to="/conexao">🤝Conexão</Link>
-             <Link to="/diario">📒Diário</Link>
-             <Link to="/impacto">🌎Impacto</Link>
+                <Link to="/dashboard">🏠Início</Link>
+                <Link to="/guia">📚Guia</Link>
+                <Link to="/conexao">🤝Conexão</Link>
+                <Link to="/diario">📒Diário</Link>
+                <Link to="/impacto">🌎Impacto</Link>
+                <Link to="/perfil"><i className="fa-solid fa-user"></i></Link>
            </nav>
     </div>
   );

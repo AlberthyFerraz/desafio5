@@ -8,6 +8,7 @@ import RedeComposta from './pages/rede-composta/RedeComposta';
 import DiarioCompostagem from './pages/diario-compostagem/DiarioCompostagem';
 import MeuImpacto from './pages/meu-impacto/MeuImpacto';
 import Chat from './pages/chat/Chat';
+import Perfil from './pages/perfil/Perfil'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/diario" element={<DiarioCompostagem />} />
         <Route path="/impacto" element={<MeuImpacto />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/perfil" element={<Perfil />} />
         <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
     </Router>

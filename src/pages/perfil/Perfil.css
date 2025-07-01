@@ -1,0 +1,41 @@
+#perfil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+#perfil-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    background: #ffffff;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 2rem;
+}
+
+#perfil {
+    width: 30%;
+}
+
+h5 {
+    margin: 0;
+}
+
+#edit-perfil, #logout {
+    width: 80%;
+}
+
+#logout {
+    background: #A90000;
+}
