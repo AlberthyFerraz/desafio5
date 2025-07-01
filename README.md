@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+📋 README - Guia de Compostagem Composta+
+🌱 Sobre o Projeto
+O Guia de Compostagem Composta+ é uma aplicação web educativa desenvolvida em React que ensina os fundamentos da compostagem doméstica de forma interativa e visual. O projeto foi criado para:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Educar sobre práticas sustentáveis de manejo de resíduos orgânicos
 
-## Available Scripts
+Mostrar os diferentes métodos de compostagem caseira
 
-In the project directory, you can run:
+Indicar quais materiais podem ou não ser compostados
 
-### `npm start`
+Oferecer dicas essenciais para compostagem eficiente
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Funcionalidades Principais
+Navegação intuitiva por seções numeradas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visual rico com ilustrações educativas
 
-### `npm test`
+Jogo interativo para testar conhecimentos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Design responsivo que se adapta a diferentes telas
 
-### `npm run build`
+Scroll suave entre as seções do guia
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠 Tecnologias Utilizadas
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 
-### `npm run eject`
+https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Como Executar o Projeto
+Pré-requisitos
+Node.js (v14 ou superior)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm ou yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Passos para instalação
+Clone o repositório
 
-## Learn More
+bash
+git clone https://github.com/seu-usuario/composta-plus.git
+cd composta-plus
+Instale as dependências
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+npm install
+# ou
+yarn install
+Inicie o servidor de desenvolvimento
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+npm start
+# ou
+yarn start
+Acesse no navegador
 
-### Code Splitting
+text
+http://localhost:3000
+📂 Estrutura do Projeto
+text
+composta-plus/
+├── public/               # Arquivos estáticos
+├── src/
+│   ├── assets/           # Imagens e SVG's
+│   ├── components/       # Componentes reutilizáveis
+│   ├── pages/            # Páginas principais
+│   │   ├── guia-compostagem/
+│   │   │   ├── GuiaCompostagem.jsx  # Página do guia
+│   │   │   └── GuiaCompostagem.css
+│   ├── App.js            # Configuração principal
+│   └── index.js          # Ponto de entrada
+├── package.json
+└── README.md
+🎨 Design System
+Cores principais:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Verde primário: #4CAF50
 
-### Analyzing the Bundle Size
+Verde escuro: #2e7d32
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Texto: #333333
 
-### Making a Progressive Web App
+Tipografia:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Títulos: Arial, bold
 
-### Advanced Configuration
+Corpo do texto: Arial, regular
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🤝 Como Contribuir
+Faça um fork do projeto
 
-### Deployment
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 
-### `npm run build` fails to minify
+Push para a branch (git push origin feature/AmazingFeature)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Abra um Pull Request
+
+📄 Licença
+Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+
+✉️ Contato
+Seu Nome - @seu_twitter - email@exemplo.com
+
+Link do Projeto: https://github.com/seu-usuario/composta-plus
+
+<div align="center"> <sub>Criado com ❤︎ por <a href="https://github.com/seu-usuario">você</a></sub> </div>
