@@ -1,0 +1,87 @@
+
+/* Formulário */
+.anunciar-container {
+  width: 500px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.anunciar-container h2 {
+  margin-bottom: 10px;
+}
+
+.anunciar-container h3 {
+  color: green;
+  margin-bottom: 20px;
+}
+
+.anunciar-container label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.anunciar-container input,
+.anunciar-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.anunciar-container textarea {
+  resize: none;
+  height: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancelar {
+  background-color: red;
+}
+
+.anunciar {
+  background-color: green;
+  color: white;
+}
+
+.dashboard-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #114C02; /* Verde escuro */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-nav a {
+    text-decoration: none;
+    color: white; /* Texto branco */
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboard-nav a:hover {
+    background-color: #0d3a01; /* Verde mais escuro no hover */
+    color: white;
+}
