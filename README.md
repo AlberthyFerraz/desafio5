@@ -38,7 +38,7 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 ### 🔧 Pré-requisitos
 
 - Node.js (v14 ou superior)  
-- npm ou yarn
+- npm 
 
 ### 📥 Instalação
 
@@ -50,4 +50,55 @@ cd composta-plus
 # Instale as dependências
 npm install
 # ou
-yarn install
+yarn install📂 Estrutura do Projeto
+bash
+Copiar
+Editar
+composta-plus/
+├── public/               # Arquivos estáticos
+├── src/
+│   ├── assets/           # Imagens e SVG's
+│   ├── components/       # Componentes reutilizáveis
+│   ├── pages/            # Páginas principais
+│   │   └── guia-compostagem/
+│   │       ├── GuiaCompostagem.jsx
+│   │       └── GuiaCompostagem.css
+│   ├── App.js            # Configuração principal
+│   └── index.js          # Ponto de entrada
+├── package.json
+└── README.md
+🎨 Design System
+🎨 Cores
+Verde primário: #4CAF50
+
+Verde escuro: #2e7d32
+
+Texto: #333333
+
+🔤 Tipografia
+Títulos: Arial Bold
+
+Corpo do texto: Arial Regular
+
+🤝 Como Contribuir
+Faça um fork do projeto
+
+Crie uma branch com sua feature: git checkout -b feature/NovaFuncionalidade
+
+Commit suas alterações: git commit -m 'feat: Nova funcionalidade'
+
+Push para sua branch: git push origin feature/NovaFuncionalidade
+
+Abra um Pull Request 🚀
+
+📄 Licença
+Distribuído sob a licença MIT. Veja o arquivo LICENSE para mais informações.
+
+✉️ Contato
+Seu Nome
+📧 email@exemplo.com
+🐦 @seu_twitter
+
+🔗 Link do Projeto: github.com/seu-usuario/composta-plus
+
+<div align="center"> <sub>Criado com ❤ por <a href="https://github.com/seu-usuario">você</a></sub> </div> ```
