@@ -28,8 +28,7 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 - 🎨 Visual rico com ilustrações educativas  
 - 🎮 Jogo interativo para testar conhecimentos  
 - 📱 Design responsivo adaptado a dispositivos móveis  
-- 🌀 Scroll suave entre seções  
-
+- ✅Tela de Login e cadastro
 ---
 
 ## 🚀 Como Executar o Projeto
@@ -38,7 +37,45 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 
 - Node.js (v14 ou superior)  
 - npm 
+##Bibliotecas listadas no package.json (instaláveis via):
 
+-bash
+-npm install
+-Principais dependências:
+
+--react (^18.2.0)
+
+--react-router-dom (^6.14.0)
+
+--axios (^1.4.0)
+
+--react-toastify (^9.1.3)
+##Passos para Configuração
+**Clone o repositório:
+
+-bash
+-git clone [URL_DO_REPOSITÓRIO]
+-cd [NOME_DO_PROJETO]
+Instale as dependências:
+
+-bash
+-npm install
+# ou (se usar yarn)
+-yarn install
+Variáveis de Ambiente (se aplicável):
+
+Crie um arquivo .env na raiz com:
+
+plaintext
+REACT_APP_API_URL=http://localhost:3001  # Exemplo para API local
+Inicie o servidor de desenvolvimento:
+
+-bash
+-npm start
+# Acesse http://localhost:3000 no navegador
+## 🚀 Como entrar no login
+ Usuario :admin@admin.com 
+ Senha:admin
 
 
 
