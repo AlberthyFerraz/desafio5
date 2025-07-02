@@ -51,16 +51,16 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 
 --react-toastify (^9.1.3)
 ##Passos para Configuração
-**Clone o repositório:
+*Clone o repositório:
 
 -bash
 -git clone [URL_DO_REPOSITÓRIO]
 -cd [NOME_DO_PROJETO]
-Instale as dependências:
+#Instale as dependências:
 
 -bash
 -npm install
-# ou (se usar yarn)
+ ou (se usar yarn)
 -yarn install
 Variáveis de Ambiente (se aplicável):
 
