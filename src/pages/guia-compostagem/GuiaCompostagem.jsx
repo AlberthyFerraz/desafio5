@@ -92,7 +92,8 @@ function GuiaCompostagem() {
         <div className="game-section">
           <h3>🎮 Aprenda Jogando!</h3>
           <p>Coloque seus conhecimentos de compostagem à prova de forma divertida!</p>
-          <button>Iniciar Jogo de Compostagem</button>
+          <button  onClick={() => window.open("https://lilydias7.itch.io/quiz-da-composta", "_blank")}
+      className="game-button">Iniciar Jogo de Compostagem</button>
         </div>
       </section>
 
