@@ -86,14 +86,15 @@ input {
 
 #records {
     width: 100%;
-    border-radius: 1rem;
-    background: #D9D9D9;
     color: black;
 }
 
 li {
     list-style: none;
     padding: 0.4rem;
+    margin: 1rem;
+    background: #D9D9D9;
+    border-radius: 1rem;
 }
 
 p {
