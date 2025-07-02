@@ -54,8 +54,8 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 *Clone o repositório:
 
 -bash
--git clone [URL_DO_REPOSITÓRIO]
--cd [NOME_DO_PROJETO]
+-git clone (https://github.com/AlberthyFerraz/desafio5)
+-cd Desafio5
 #Instale as dependências:
 
 -bash
