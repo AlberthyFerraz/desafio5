@@ -6,7 +6,7 @@ import axios from 'axios';
 function SelecaoPerfil() {
   const navigate = useNavigate();
 
-  const url = "http://localhost:4000";
+  const url = "https://composta-mais-api.onrender.com";
 
   const setComposter = async () => {
     const button = document.getElementById("composter-option");

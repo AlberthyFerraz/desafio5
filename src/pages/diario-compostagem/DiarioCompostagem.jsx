@@ -12,7 +12,7 @@ function DiarioCompostagem() {
   const [quantidadeDeResiduo, setAmount] = useState("");
   const [registros, setRegistros] = useState([]);
 
-  const url = "http://localhost:4000";
+  const url = "https://composta-mais-api.onrender.com";
 
   const buscarRegistros = async () => {
     try {

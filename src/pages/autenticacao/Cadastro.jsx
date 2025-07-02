@@ -10,7 +10,7 @@ function Cadastro() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  const url = "http://localhost:4000";
+  const url = "https://composta-mais-api.onrender.com";
 
   const navigate = useNavigate();
 
@@ -48,10 +48,10 @@ function Cadastro() {
       <div className="login-card">
         <h2>Cadastre-se no Composta+</h2>
         
-        <input type="text" placeholder="Nome Completo" onChange={(e) => setName(e.target.value)}/>
-        <input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)}/>
-        <input type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)}/>
-        <input type="password" placeholder="Confirmar Senha" onChange={(e) => setConfirmPassword(e.target.value)}/>
+        <input type="text" placeholder="Nome Completo" onChange={(e) => setName(e.target.value)} className="auth-input"/>
+        <input type="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} className="auth-input"/>
+        <input type="password" placeholder="Senha" onChange={(e) => setPassword(e.target.value)} className="auth-input"/>
+        <input type="password" placeholder="Confirmar Senha" onChange={(e) => setConfirmPassword(e.target.value)} className="auth-input"/>
         
         <button className="login-button" onClick={handleRegister}>Cadastrar</button>
         

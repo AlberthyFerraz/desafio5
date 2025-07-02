@@ -3,13 +3,14 @@ import { useNavigate, Link } from 'react-router-dom';
 import './Login.css'
 import { toast, ToastContainer } from 'react-toastify';
 import axios from 'axios';
+import logo from '../../assets/logo-cor.jpg';
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const url = "http://localhost:4000"
+  const url = "https://composta-mais-api.onrender.com"
 
   const validaEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -49,6 +50,7 @@ function Login() {
       toast.success("Login feito com sucesso!");
       navigate("/dashboard");
     } catch (error) {
+      console.log(error)
       toast.error("Erro ao tentar fazer Login, tente novamente!");
     }
   }
@@ -56,7 +58,7 @@ function Login() {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h2>Composta+</h2>
+        <img src={logo} alt="" id="logo-login" />
         
         <form>
           <input 
@@ -64,6 +66,7 @@ function Login() {
             placeholder="E-mail" 
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            className="auth-input"
           />
           
           <input 
@@ -71,6 +74,7 @@ function Login() {
             placeholder="Senha" 
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            className="auth-input"
           />
           
           <button onClick={handleLogin} className="login-button">

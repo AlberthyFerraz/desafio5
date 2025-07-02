@@ -20,7 +20,7 @@ function Chat() {
     setMessage('');
 
     try {
-      const res = await axios.post('http://localhost:4000/chat/', { message: userMessage });
+      const res = await axios.post('https://composta-mais-api.onrender.com/chat/', { message: userMessage });
 
       setMessages(prev => [...prev, { text: res.data.response, sender: 'ai' }]);
     } catch (err) {
