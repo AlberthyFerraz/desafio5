@@ -42,6 +42,7 @@
 
 .menu > ul > li {
     list-style: none;
+    background: none;
 }
 
 .option {
@@ -81,6 +82,10 @@
 .game-section > button {
     width: 25%;
     border-radius: 2rem;
+    width: 40%;
+    padding: .8rem;
+    background: #114C02;
+    color: #ffffff;
 }
 
 #card-guide-one {

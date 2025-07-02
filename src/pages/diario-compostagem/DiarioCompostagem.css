@@ -15,6 +15,7 @@
 
 h2 {
     font-size: 20pt;
+    color: #fff;
 }
 
 #add-record {
@@ -33,6 +34,13 @@ input {
     border-radius: 0.4rem;
     background: #fff;
     margin: 0;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+#problems {
+    width: 100%;
 }
 
 #add-record-top, #add-record-bottom  {

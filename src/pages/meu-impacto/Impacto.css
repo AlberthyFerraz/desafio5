@@ -74,16 +74,6 @@
   color: #ccc;
   padding: 0 5px;
 }
-.dashboard-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 15px 0;
-  background-color: #4CAF50;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
 .dashboard-nav a {
   color: white;
