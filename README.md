@@ -21,7 +21,9 @@ O **Composta+** é uma aplicação web educativa desenvolvida com **React**. Seu
 - Dicas práticas para fazer seu próprio composto orgânico
 
 ---
-
+## 🚀 Como entrar no login
+ Usuario :admin@admin.com 
+ Senha:admin
 ## ✨ Funcionalidades Principais
 
 - ✅ Navegação intuitiva por seções numeradas  
